@@ -56,14 +56,14 @@
     </nav>
 
     <!-- Header - set the background image for the header in the line below -->
-    <header class="py-5 bg-image-full" style="background-image: url('img/banner.png');">
+    <header class="bg-image-full" >
+        <img src="img/banner.png">
     </header>
 
     <!-- Content section -->
     <section class="py-5 text-center">
       <div class="container">
         <h1>Cutting the Edge</h1>
-        <div id="timetable"></div>
         <p class="lead">Auf der neuen Networking-Reihe InnoMeet Cologne treffen zum Auftakt im Startplatz in Köln IT-Spezialisten und Entwickler auf rennomierte Experten zu einem gemeinsamen Wisens- und Erfahrungsaustausch.
         Im Mediapark 5, 50670 Köln, werden in angenehmer Atmosphäre wichtige Insights vermittelt, spannende Trends analysiert und gemeinsame Projekte ausgelotet.
         Die InnoMeet Cologne setzt neue Impulse und stellt aktuelle Cutting-Edge-Technologien anhand von praktischen Beispielen zur Diskussion.
@@ -74,16 +74,96 @@
     </section>
 
     <!-- Image Section - set the background image for the header in the line below -->
-    <section class="py-5 timeline" style="background-image: url('img/timetable.png');">
-      <div class="container">
-        <h1 class="text-left">Timetable</h1>
+    <section class="py-5 timetable" style="background-image: url('img/timetable.png');">
+      <div id="timetable" class="anchor"></div>
+        <div class="container">
+            <h1 class="text-left">Timetable</h1>
+
+            <ul class="timeline" style="background-image: url('img/timeline.png');">
+                <li class="clearfix">
+                    <div class="timeline-time">
+                        19:00 Uhr
+                    </div>
+                    <div class="timeline-circle-parent">
+                        <div class="timeline-circle"> </div>
+                    </div>
+                    <div class="timeline-text">
+                        <b>Begrüßung</b>
+                    </div>
+                </li>
+                </li>
+                <li class="clearfix">
+                    <div class="timeline-time">
+                        19:15-19:30 Uhr
+                    </div>
+                    <div class="timeline-circle-parent">
+                        <div class="timeline-circle"> </div>
+                    </div>
+                    <div class="timeline-text">
+                        <b>Eröffnung</b> der InnoMeet Cologne durch Veranstalter und Sponsor Wolfgang Lang (CEO Crowdfox GmbH).
+                    </div>
+                </li>
+                <li class="clearfix">
+                    <div class="timeline-time">
+                        19:30-20:00 Uhr
+                    </div>
+                    <div class="timeline-circle-parent">
+                        <div class="timeline-circle"> </div>
+                    </div>
+                    <div class="timeline-text">
+                        <b>@ocramius Marco Pivetta</b>(@Roave, @Zendframework, @Doctrine) stellt defensive Entwicklungstechniken anhand PHP 7.2 aus dem praktischen Alltag vor:
+                        <div class="timeline-abstract">
+                            <h3>Extremely Defensive PHP</h3>
+                            <p>
+                                "Resistant, highly testable, safe and maintainable code: or not?
+                            </p>
+
+                        </div>
+
+                    </div>
+                </li>
+                <li class="clearfix">
+                    <div class="timeline-time">
+                        20:15-20:45 Uhr
+                    </div>
+                    <div class="timeline-circle-parent">
+                        <div class="timeline-circle"> </div>
+                    </div>
+                    <div class="timeline-text">
+                        <b>Das DevOps-Team</b>(Alwin Mark und Marcel Klein) stellt defensive Entwicklungstechniken anhand PHP 7.2 aus dem praktischen Alltag vor:
+                        <div class="timeline-abstract">
+                            <h3>Extremely Defensive PHP</h3>
+                            <p>
+                                "Resistant, highly testable, safe and maintainable code: or not?
+                            </p>
+
+                        </div>
+
+                    </div>
+                </li>
+                <li class="clearfix">
+                    <div class="timeline-time">
+                        21:00-open End
+                    </div>
+                    <div class="timeline-circle-parent">
+                        <div class="timeline-circle"> </div>
+                    </div>
+                    <div class="timeline-text">
+                        <p><b>Meet & Eat</b></p>
+                        Anschließend findet ein inspirierender Gedankenaustausch statt. Unser Sponsor Crowdfox lädt zum Networking bei Hans im Glück zu gutem Essen und kühlen Getränken ein.
+                        </div>
+
+                    </div>
+                </li>
+            </ul>
+        </div>
       </div>
       <div style="height: 200px;"></div>
     </section>
 
     <!-- Content section -->
-    <div id="speaker"></div>
     <section class="py-5">
+      <div id="speaker" class="anchor"></div>
       <div class="container speaker">
         <h1>Speaker</h1>
 
@@ -125,7 +205,8 @@
       </div>
     </section>
 
-    <section id="sponsor" class="py-5">
+    <section class="py-5">
+      <div id="sponsor" class="anchor"></div>
       <div class="container sponsor">
         <h1>Sponsor</h1>
         <div class="row">
@@ -147,13 +228,14 @@
                 </div>
             </div>
             <div class="col-sm speaker-image">
-                <img src="img/wolfgang.png"/>
+                <img src="img/wolfgang.png" />
             </div>
         </div>
       </div>
     </section>
 
-    <section id="innomeat" style="background-image:url('img/Meet_eat.png');">
+    <section class="innomeat" style="background-image:url('img/Meet_eat.png');">
+        <div id="innomeat" class="anchor"></div>
         <div class="outlinebox-left">
             <div class="outlinecontainer">
                 <h1>Meet & Eat</h1>
@@ -171,31 +253,47 @@
                     <li>Gedankenaustausch</li>
                     <li>Networking</li>
                 </ul>
-
+                <div class="container row">
+                    <div class="col-sm"></div>
+                    <div class="col-sm sponsor-logo">
+                        <h2>Free Drinks & Food</h2>
+                        <div>Powered by</div>
+                        <img src="img/logo_schwarz_crowdfox.png"/>
+                    </div>
+                </div>
             </div>
 
-            <div class="container row">
-                <div class="col-sm"></div>
-                <div class="col-sm sponsor-logo">
-                    <div>Powered by</div>
-                    <img src="img/logo_weiß_crowdfox.png"/>
-                </div>
-            <div>
         </div>
 
-        <!--div class="container">
+        <div class="container">
             <div class="text-center">
-                <a class="cta" href="">Hier anmelden</a>
+                <a class="cta" href="">kostenlos anmelden</a>
             </div>
-        </div-->
+        </div>
     </section>
 
-    <section id="location">
-
-        <div class="content">
+    <section class="location">
+        <div id="location" class="anchor"></div>
+        <div class="container"> 
             <h1>Location</h1>
-            <div class="col-sm"></div>
-            <div class="col-sm"><img src="" /></div>
+
+            <div class="row">
+                <div class="col-sm location-address">
+                    <p>
+                    Startplatz, (3. Etage, Raum Köln)<br \>
+                    Im Mediapark 5 | 50670 Köln
+                    </p>
+
+                    <p><b>Ansprechpartner:</b></p>
+
+                    <p>
+                        Björn Esser<br \>
+                        b.esser@crowdfox.com<br \>
+                        Telefon: +49 (0)221-165 323 62<br \>
+                    </p>
+                </div>
+                <div class="col-sm location-map"><img src="img/map.png"/></div>
+            </div>
         </div>
 
     </section>
@@ -203,7 +301,38 @@
     <!-- Footer -->
     <footer class="py-5">
       <div class="container">
-        <p class="m-0 text-center text-white">Copyright &copy; Your Website 2018</p>
+        <div class="row">
+            <div class="contact">
+                <h3>Kontakt</h3>
+                info@innomeet.cologne<br \>
+                +49 (0) 175 290 21 04
+                <p>
+                    <h3>Veranstalter</h3>
+                    <p>
+                        Alwin Mark<br \>
+                        Feldstraße 15<br \>
+                        51381 Leverkusen<br \>
+
+                    </p>
+                    <p>
+                        Marcel Klein<br \>
+                        Am Flutgraben 26<br \>
+                        51067 Köln<br \>
+                    </p>
+                </p>
+            </div>
+            <div class="disclaimer">
+                <h3> Datenschutz</h3>
+                <p>
+                    Haftungsauschluss:<br \>
+                    Die InnoMeet Cologne is eine private Veranstaltung.
+                    Für Schäden wird keine Haftung übernommen.
+                    Teilnahme auf eigene Gefahr
+                </p>
+            </div>
+            <div class="col-sm">
+            </div>
+        </div>
       </div>
       <!-- /.container -->
     </footer>

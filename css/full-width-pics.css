@@ -11,7 +11,7 @@ body {
 
 @media (min-width: 992px) {
   body {
-    padding-top: 56px;
+    padding-top: 120px;
   }
 }
 
@@ -125,6 +125,34 @@ section {
 .speaker h1 {
   text-align: right;
   padding-right: 10%;
+  padding-bottom: 30pt;
+}
+
+.speaker-text {
+  position: relative;
+  padding-top: 90pt;
+}
+
+.speaker-box-left {
+    background-color: #2e719dcc;
+    padding: 5pt;
+    width: 120%;
+    position:absolute;
+    right: -60pt;
+    top: -20px;
+    z-index:1020;
+    text-align: center;
+
+}
+
+.speaker-box-right {
+    background-color: #2e719dcc;
+    padding: 5pt;
+    width: 120%;
+    position:absolute;
+    left: -200px;
+    top: -20px;
+    text-align: center;
 }
 
 .devops h1 {
@@ -150,6 +178,24 @@ section h1 {
   font-size: 22pt;
   font-weight: bolder;
   border-radius: 2px;
+}
+
+.cta-deadline {
+    font-size: 16pt;
+    font-weight: bolder;
+    padding-top: 30pt;
+}
+
+a:link.cta {
+    color: #2e719d;
+}
+
+a:visited.cta {
+    color: #2e719d;
+}
+
+a:active.cta {
+    color: #2e719d;
 }
 
 .anchor {

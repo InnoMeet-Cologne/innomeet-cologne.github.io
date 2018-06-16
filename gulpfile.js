@@ -24,7 +24,9 @@ gulp.task('vendor', function() {
 })
 
 gulp.task('webserver', function() {
-  connect.server();
+  connect.server({
+    host: '0.0.0.0'
+  });
 });
 
 // Default task

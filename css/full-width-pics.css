@@ -136,7 +136,7 @@ section {
 .speaker-box-left {
     background-color: #2e719dcc;
     padding: 5pt;
-    width: 120%;
+    width: 100%;
     position:absolute;
     right: -60pt;
     top: -20px;
@@ -145,10 +145,14 @@ section {
 
 }
 
+.innomeat .row {
+    margin-right:0px;
+}
+
 .speaker-box-right {
     background-color: #2e719dcc;
     padding: 5pt;
-    width: 120%;
+    width: 100%;
     position:absolute;
     left: -200px;
     top: -20px;

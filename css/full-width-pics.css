@@ -10,11 +10,13 @@ body {
   padding-top: 120px;
 }
 
-/*1200 hamburger breakpoint */
 
 @media (max-width: 428px) {
     .navbar-brand {
         width: 80%;
+    }
+    .navbar-brand img {
+        width: 100%;
     }
 }
 

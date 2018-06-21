@@ -146,34 +146,37 @@ section {
 
 .speaker-text {
   position: relative;
-  padding-top: 90pt;
 }
 
-.speaker-box-left {
+@media (min-width: 998px) {
+    .speaker-box-left {
+        position:absolute;
+        right: -60pt;
+        top: -20px;
+        z-index:1020;
+        margin-top: 90pt;
+    }
+
+    .speaker-box-right {
+        position:absolute;
+        left: -200px;
+        top: -20px;
+    }
+
+}
+
+.speaker-box {
     background-color: #2e719dcc;
     padding: 5pt;
     width: 100%;
-    position:absolute;
-    right: -60pt;
-    top: -20px;
-    z-index:1020;
     text-align: center;
-
 }
 
 .innomeat .row {
     margin-right:0px;
 }
 
-.speaker-box-right {
-    background-color: #2e719dcc;
-    padding: 5pt;
-    width: 100%;
-    position:absolute;
-    left: -200px;
-    top: -20px;
-    text-align: center;
-}
+
 
 .devops h1 {
   text-align: left;

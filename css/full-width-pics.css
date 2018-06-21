@@ -18,6 +18,10 @@ body {
     .navbar-brand img {
         width: 100%;
     }
+
+    .cta {
+        display: block;
+    }
 }
 
 
@@ -256,7 +260,6 @@ section h1 {
 }
 
 .cta {
-  display: block;
   text-transform: uppercase;
   background-color: #fff;
   padding: 5px 20px 5px 20px;

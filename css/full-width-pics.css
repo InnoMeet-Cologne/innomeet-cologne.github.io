@@ -68,6 +68,21 @@ section {
   padding-bottom: 30pt;
 }
 
+.code pre {
+    text-align:left;
+    color: #fff;
+}
+
+.code-primkey {
+    color: #2e719d;
+    font-weight: bolder;
+    font-size: 16pt;
+}
+
+.code-key {
+    color: #2e719d;
+}
+
 .text-center {
   text-align: center;
 }
@@ -131,6 +146,49 @@ section {
     background-color: #2e719d;
 }
 
+.regularien-link {
+    color: #fff !important;
+    font-size: 18pt;
+}
+
+.disclaimer a:link {
+    text-decoration: dotted underline;
+    font-weight: bolder;
+}
+
+ /* unvisited link */
+.disclaimer a:link {
+    color: #fff;
+}
+
+/* visited link */
+.disclaimer a:visited {
+    color: #fff;
+}
+
+/* mouse over link */
+.disclaimer a:hover {
+    color: #fff;
+}
+
+/* selected link */
+.disclaimer a:active {
+    color: #fff;
+} 
+
+.regularien {
+    text-align: left;
+}
+
+.regularien h2 {
+    padding-top: 20pt;
+    padding-bottom: 10pt;
+}
+
+.regularien .text-center {
+    margin-top: 40pt;
+}
+
 .timeline-text {
     padding-left: 30pt;
     width: 80%;
@@ -149,12 +207,15 @@ section {
 }
 
 @media (min-width: 998px) {
+    .speaker-text {
+        padding-top: 90pt;
+    }
+
     .speaker-box-left {
         position:absolute;
         right: -60pt;
         top: -20px;
         z-index:1020;
-        margin-top: 90pt;
     }
 
     .speaker-box-right {

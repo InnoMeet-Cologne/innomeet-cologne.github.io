@@ -317,12 +317,17 @@ a:active.cta {
   width: 50%;
 }
 
+@media (min-width: 768px) {
+  .innomeat-whitebox {
+      width: 60%;
+  }
+}
+
 .innomeat-whitebox {
   margin-top: 30pt;
   padding: 15pt;
   background-color: #ffffffa0;
   color: #000;
-  width: 60%;
   margin-bottom:30pt;
 }
 

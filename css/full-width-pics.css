@@ -26,7 +26,7 @@ body {
 
 
 @media (min-width: 768px) and (max-width: 1200px) {
-   #navbarResponsive {
+   #navbarResponsive[expanded=false]{
        display: none !important;
    }
    #navbarBurger {
@@ -43,6 +43,8 @@ body {
 .social {
     height: 100px;
     text-align: center;
+    position: absolute;
+    right: 0px;
 }
 
 .social img {
@@ -96,14 +98,14 @@ section {
     color: #fff;
 }
 
+.code pre span {
+    color: #2e719d;
+}
+
 .code-primkey {
     color: #2e719d;
     font-weight: bolder;
     font-size: 16pt;
-}
-
-.code-key {
-    color: #2e719d;
 }
 
 .text-center {

@@ -42,9 +42,8 @@ body {
 
 .social {
     height: 100px;
+    width: 200px;
     text-align: center;
-    position: absolute;
-    right: 0px;
 }
 
 .social img {
@@ -86,8 +85,8 @@ header img {
 
   color: #ffff;
   text-transform: uppercase;
-  padding-top: 300px;
-  padding-bottom: 300px;
+  padding-top: 10%;
+  padding-bottom: 10%;
 }
 
 .bg-image-full h1 {
@@ -95,11 +94,10 @@ header img {
   padding-left: 128px;
 
   font-weight: 900;
-  text-shadow: 4px 0 #fff;
   font-weight:bold;
   letter-spacing:7px;
 
-  font-size: 48pt;
+  font-size: 5vw;
 }
 
 .bg-image-full > div {
@@ -110,7 +108,7 @@ header img {
 
 .bg-image-full > div > div {
   letter-spacing:2px;
-  font-size: 24pt;
+  font-size: 2vw;
   color: #dadada;
   font-weight:lighter;
 }

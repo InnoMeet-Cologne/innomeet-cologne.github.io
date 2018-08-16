@@ -83,6 +83,40 @@ header img {
   background-size: cover;
   -o-background-size: cover;
   background-position: center top;
+
+  color: #ffff;
+  text-transform: uppercase;
+  padding-top: 300px;
+  padding-bottom: 300px;
+}
+
+.bg-image-full h1 {
+
+  padding-left: 128px;
+
+  font-weight: 900;
+  text-shadow: 4px 0 #fff;
+  font-weight:bold;
+  letter-spacing:7px;
+
+  font-size: 48pt;
+}
+
+.bg-image-full > div {
+  padding-top: 20pt;
+  padding-right: 128px;
+  text-align: right;
+}
+
+.bg-image-full > div > div {
+  letter-spacing:2px;
+  font-size: 24pt;
+  color: #dadada;
+  font-weight:lighter;
+}
+
+.bg-image-full div img {
+    width: 14%;
 }
 
 section {

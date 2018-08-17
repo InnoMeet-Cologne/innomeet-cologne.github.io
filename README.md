@@ -6,6 +6,6 @@ Develop
 --------
 
 run locally with:
-`./node_modules/.bin/gulp
+`./node_modules/.bin/gulp`
 
-everything else is just javascript
+everything else is just javascript, CSS and HTML
